@@ -9,10 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-zinc': 'linear-gradient(360deg, rgb(9, 9, 11), rgb(24, 24, 27))'
       },
+      backgroundColor: {
+        'default': "#000"
+      },
+      textColor: {
+        "default": "#fff"
+      },
+      fontFamily: {
+        poppins: "Poppins"
+      }
     },
   },
   plugins: [],
