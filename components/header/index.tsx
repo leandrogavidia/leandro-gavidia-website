@@ -1,6 +1,5 @@
 import Image from "next/image"
 import Link from "next/link"
-import { itemList } from "./item-list"
 
 export function Header() {
     return (
@@ -15,18 +14,13 @@ export function Header() {
                     className="w-8 h-auto"
                 />
             </Link>
-            <nav>
-                <ul className="flex justify-center items-center gap-x-5 text-lg font-medium">
-                    {
-                        itemList.map((item) => 
-                            <li key={item.path}>
-                                <Link href={item.path}>
-                                    {item.name}
-                                </Link>
-                            </li>
-                        )
-                    }
-                </ul>
+            <nav className="flex justify-end items-center gap-x-5 text-lg font-medium">
+                <Link 
+                    href="/documents/cv-leandro-gavidia.pdf"
+                    className=" border-[2px] border-white rounded-full px-5 py-2"
+                >
+                    Download CV
+                </Link>
             </nav>
         </header>
     )

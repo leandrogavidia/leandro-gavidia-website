@@ -7,7 +7,7 @@ export const itemList = [
     {
         name: "Instagram",
         url: "https://www.instagram.com/androgavidia/",
-        icon: "/images/social-media-icons/isntagram.svg"
+        icon: "/images/social-media-icons/instagram.svg"
     },
     {
         name: "Threads",
