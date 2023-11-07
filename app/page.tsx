@@ -15,9 +15,12 @@ export default function Home() {
         <div className="flex flex-col justify-center items-center gap-y-10 sm:items-start">
           <div className="flex flex-col justify-center items-center gap-y-3 sm:items-start">
             <h1 className="text-2xl font-bold sm:text-3xl">Leandro Gavidia Santamaria</h1>
-            <p className="text-sm sm:text-xl">Fullstack Developer, Web3 Developer, Smart Contract Developer</p>
+            <p className="text-sm sm:text-xl">Fullstack, Web3 and Smart Contract Developer</p>
           </div>
-          <h2 className="text-xs font-normal underline-offset-4 underline sm:text-base">There is no perfection in technology</h2>
+          <div className="flex flex-col justify-center items-center gap-y-5 sm:items-start">
+            <h2 className="text-xs font-normal underline-offset-4 underline sm:text-base">There is no perfection in technology</h2>
+            <address className="text-xs sm:text-base"><span className="font-semibold">Contact me:</span> contact@leandrogavidia.com</address>
+          </div>
         </div>
       </section>
       <section className="flex flex-col justify-center items-start gap-y-5">
