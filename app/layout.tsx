@@ -11,6 +11,11 @@ export const metadata: Metadata = {
   authors: {
     name: "Leandro Gavidia Santamaria"
   },
+  verification: {
+    other: {
+        "facebook-domain-verification": "xsbd9ltrj26b7vtf0iu08z16euqzjp"
+    }
+  },
   robots: "index, follow",
   twitter: {
     card: "summary_large_image",
