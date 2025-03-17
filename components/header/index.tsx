@@ -16,10 +16,11 @@ export function Header() {
             </Link>
             <nav className="flex justify-end items-center gap-x-5 text-lg font-medium">
                 <Link 
-                    href="/documents/cv-leandro-gavidia.pdf"
+                    href="https://sol-ai.app/"
+                    target="_blank"
                     className=" border-[2px] border-white rounded-full px-5 py-2"
                 >
-                    Download CV
+                    Sol AI
                 </Link>
             </nav>
         </header>
