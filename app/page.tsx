@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
         <div className="flex flex-col justify-center items-center gap-y-10 sm:items-start">
           <div className="flex flex-col justify-center items-center gap-y-3 sm:items-start">
             <h1 className="text-2xl font-bold sm:text-3xl">Leandro Gavidia Santamaria</h1>
-            <p className="text-sm sm:text-xl">Solana Developer | Content creator</p>
+            <p className="text-sm sm:text-xl sm:text-left">The Monarch of the AIs, Accelerating new user onboarding to Solana: <Link target="_blank" href="https://sol-ai.app/" className="underline font-semibold">Sol AI</Link>.</p>
           </div>
           <div className="flex flex-col justify-center items-center gap-y-5 sm:items-start">
             <h2 className="text-xs font-normal underline-offset-4 underline sm:text-base">There is no perfection in technology</h2>
