@@ -6,7 +6,7 @@ export default function Home() {
     <div className="w-full flex flex-col justify-start items-center gap-y-10">
       <section className="flex flex-col items-center justify-center w-full gap-5 bg-gradient-zinc rounded-lg p-5 text-center shadow-2xl sm:flex-row sm:gap-10">
         <Image 
-          src="/images/personal/leandro-gavidia-picture.jpg"
+          src="/images/personal/pfp.jpg"
           alt="Personal picture"
           title="Personal picture"
           width={160}
