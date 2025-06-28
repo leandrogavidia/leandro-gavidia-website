@@ -54,7 +54,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="font-poppins max-w-[1020px] my-0 mx-auto min-h-screen py-5 px-9 bg-default text-default sm:py-10">
+      <body className="font-poppins max-w-[1020px] my-0 mx-auto min-h-screen py-5 px-9 bg-background text-foreground sm:py-10">
         <Header/>
         <main className="my-10 border-b border-zinc-900 pb-10">{children}</main>
         <Footer/>
