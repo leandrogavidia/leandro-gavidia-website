@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://leandrogavidia.com'),
   title: 'Leandro Gavidia Santamaria',
   description: "Leandro Gavidia's personal website",
-  keywords: ["Fullstack Developer", "Web3 Developer", "Smart Contract Developer", "Leandro Gavidia Santamaria"],
+  keywords: ["Leandro Gavidia Santamaria", "Software developer", "AI", "blockchain"],
   authors: {
     name: "Leandro Gavidia Santamaria"
   },
@@ -54,7 +54,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="font-poppins max-w-[1020px] my-0 mx-auto min-h-screen py-5 px-9 bg-background text-foreground sm:py-10">
+      <body className="font-poppins max-w-[1020px] my-0 mx-auto min-h-screen py-5 px-9 bg-background text-foreground sm:py-10 flex flex-col justify-center items-center">
         <Header/>
         <main className="my-10 border-b border-zinc-900 pb-10">{children}</main>
         <Footer/>

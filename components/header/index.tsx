@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export function Header() {
     return (
-        <header className="w-full flex justify-between items-center gap-x-5">
+        <header className="w-full flex justify-center items-center">
             <Link href="/" className="cursor-pointer">
                 <Image
                     src="/images/logo/phone-version.svg"
@@ -14,15 +14,6 @@ export function Header() {
                     className="w-8 h-auto"
                 />
             </Link>
-            <nav className="flex justify-end items-center gap-x-5 text-lg font-medium">
-                <Link 
-                    href="https://sol-ai.app/"
-                    target="_blank"
-                    className=" border-[2px] border-white rounded-full px-5 py-2"
-                >
-                    Sol AI
-                </Link>
-            </nav>
         </header>
     )
 }

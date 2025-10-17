@@ -6,7 +6,6 @@ export function Footer() {
     return (
         <footer className="w-full">
             <div className="w-full flex flex-col justify-center items-center gap-y-5 sm:gap-y-9">
-                <h3 className="text-2xl font-medium sm:text-3xl">Social media</h3>
                 <ul className="flex items-center justify-center gap-x-4 sm:gap-x-6">
                     {
                         itemList.map(({ icon, name, url }) => (
