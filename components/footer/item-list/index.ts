@@ -1,5 +1,10 @@
 export const itemList = [
     {
+        name: "Medium",
+        url: "https://medium.com/@leandrogavidia",
+        icon: "/images/social-media-icons/medium.svg"
+    },
+    {
         name: "Facebook",
         url: "https://www.facebook.com/androgavidia",
         icon: "/images/social-media-icons/facebook.svg"
